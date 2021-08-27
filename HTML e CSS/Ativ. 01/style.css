@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Benne", sans-serif;
+}
+
+
+
+#m_h ul {
+	position: fixed;
+	list-style: none;
+	background-color: #000000;
+}
+
+#m_h ul li {
+	display: inline;
+}
+
+#m_h ul li a {
+	color: #fff;
+	padding: 20px;
+	display: inline-block;
+	text-decoration: none;
+	transition: background 2s;
+}
+
+#m_h ul li a:hover {
+	background-color: #FF0000;
+}
